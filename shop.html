@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+   <meta charset="UTF-8">
+
+   <!--title-->
+
+      <title>MW:Shop</title>      
+      <link rel="stylesheet" href="style.css">
+
+</head>
+   <body>
+      <div class="page-banner" aria-hidden="true"></div>
+      
+      <!--header-->
+      <header>
+      <h1>🎤Morgan Wallen <img src="Morgan/Initials-logo.JPG" alt="MW-initials" width="40"></h1>
+      
+      <!--navigation links-->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="tour.html">Tour</a></li>
+      <li><a href="newsletter.html">Newsletter</a></li>
+      <li><a href="reviews.html">Fan Reviews</a></li>
+    </ul>
+  </nav>
+
+  
+</header>
+
+
+<!-- main content -->
+<main>
+
+<!-- merch section wrapped in container -->
+
+<section class="merch-container">
+
+  <!--LEFT/Merch placeholder -->
+  <div class="merch-image">
+    <h2>🔥 Official Morgan Wallen Merch 🔥</h2>
+    <img src="wallenmerch.png" alt="Morgan Wallen Merch Promo">
+    <h2>Shop Merchandise</h2>
+  </div>
+
+  <!-- RIGHT/Merchandise Form -->
+  <div class="merch-form">
+    <h2>🛒 Morgan Wallen Merch Order Form</h2>
+    <form id="merchForm" action="#" method="post">
+      <div>
+        <!--name section-->
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+      </div>
+
+      <div>
+               <!--email section-->
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+      <div>
+               <!--item selection-->
+      <label for="item">Select Item:</label>
+      <select id="item" name="item">
+        <option value="shirt">MW T-Shirt (Black)</option>
+         <option value="shirt">MW T-Shirt (Tan)</option>
+        <option value="hat">MW Hat</option>
+        <option value="poster">Concert Poster</option>
+      </select>
+    </div>
+
+
+    <div>
+             <!--size section-->
+      <label for="size">Choose Your Size:</label>
+      <select id="size" name="size" required>
+        <option value="">-- Select a Size --</option>
+    <option value="xsmall">X-Small--$25</option>
+        <option value="small">Small--$25</option>
+<option value="medium">Medium--$35</option>
+<option value="large">Large--$45</option>
+<option value="xl">X-Large--$45</option>
+<option value="xxl">XX-Large--$47</option>
+      </select>
+    </div>
+
+
+       <div>
+               <!--quantity section-->
+      <label for="qty">Quantity:</label>
+      <input type="number" id="qty" name="qty" min="1" max="10">
+    </div>
+
+      <div>
+               <!--comment section-->
+        <label for="comment">Tell <u>US</u> what you WANT!</label>
+      <textarea id="comment" name="comment" rows="4" cols="30"></textarea>
+      </div>
+
+       <!--submit section-->
+      <input type="submit" value="Place Order">
+    <input type="reset" value="Reset Form">
+
+    <!--JS calculate cost-->
+  <button type="button" id="calculateBtn">Calculate Cost</button>
+
+    <!--JS order total results show here-->
+<div id="orderSummary" class="order-summary-box"></div>
+    </form>
+
+
+  </div>
+</section>
+<!--section ends-->
+
+
+<!--concertphoto-->
+<div class="concert-photo">
+<img src="countrylife.jpeg" alt="countrypic" style="width: 98%;">
+
+</div>
+
+</main>
+
+ <!--navigation links-->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="tour.html">Tour</a></li>
+      <li><a href="newsletter.html">Newsletter</a></li>
+      <li><a href="reviews.html">Fan Reviews</a></li>
+    </ul>
+  </nav>
+  
+<!--morgan wallens site link-->
+<div>
+  <p>
+<a href="https://www.morganwallen.com" class="website-link" target="_blank">Morgan Wallens Website</a>
+
+<p>Morgan Wallen sets the bar high- with his concerts</p>
+</div>
+<hr>
+
+<!--main content ends-->
+
+<!--footer-->
+<p>
+<footer id="contact">&copy; 2025 Kayla Kennedy | <a href="mailto:kaylaforsuccess@gmail.com">Email me your favorites!</a></footer>
+
+<!--JS file-->
+<script src="jsMorgan.js"></script>
+</body>
+   
+</html>

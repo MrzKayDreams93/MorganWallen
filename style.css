@@ -1,0 +1,574 @@
+html {
+   height: 100%;
+   width: 100%;
+}
+
+h1, h2, h3, p {
+   text-align: center;
+   margin-top: 5px;
+     border-radius: 8px;
+}
+
+.page-banner{
+   background: url("Morgan/wallen-banner.JPG") center/cover no-repeat;
+   height: 485px;
+   margin-bottom: 2px;
+     border-radius: 8px;
+}
+
+h1 {
+   font-size: 3em;
+   text-shadow: 0 2px 4px rgba(0,0,0,.5);
+   color: azure;
+   background-color:cadetblue;
+   padding: 22px 16px;
+   margin: 0 auto;
+   background: url(Morgan/Morgan-logo.JPG) no-repeat right cadetblue;
+}
+
+p {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: aqua;
+   font-size: medium;
+   background-color: #184d4b;
+}
+
+.aboutPhotos {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+   color: aqua;
+   font-size: medium;
+   background-color: cadetblue; /*--#184d4b--*/
+}
+
+.funFacts {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: aqua;
+   font-size: medium;
+   background-color: cadetblue; /*--#184d4b--*/
+}
+
+
+/*information and card layout css---*/
+
+.card{
+   background: #184d4b;
+   font-size: medium;
+   text-align: left;
+   border: 2px solid #0c2e2d;
+   border-radius: 8px;
+   padding: 12px 14px;
+   box-shadow: 0 2px 6px rgba(0,0,0,1);
+   color: #f6c;
+}
+
+.row.three-cards{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 12px;
+   align-items: start;
+   margin: 12px 0;
+}
+
+/* image css--*/
+
+.image-row {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 12px;
+   padding: 10px 0;
+   margin: 0 auto;
+}
+
+.image-row img {
+   width: 100%;
+   max-width: 360px;
+   height: auto;
+   border: 4px solid black;
+}
+
+
+/*songs css---*/
+/*--center roster width--*/
+
+.song-list{
+   width: 300px;
+   margin: 0 auto;
+}
+.song-list ul{
+   list-style-position: inside;
+   margin: 8px 0 0;
+   padding-left: 0;
+}
+.song-list li{ line-height: 1.6; }
+.song-list li.featured{ font-weight: 700; font-style: italic;}
+
+/*tidy card right*/
+.facts{ margin: 6px 0 0; padding-left: 18px;}
+
+/*songs list*/
+
+.featured {
+   text-align: left;
+   color: rgba(82, 198, 202, 0.648);
+   font-weight: bold;
+   font-size:large;
+   font-style: italic;
+     list-style-position: inside;
+ 
+}
+
+
+/*songs css---*/
+
+.songs{
+   width: 320px;
+   margin-left: 0;
+   text-align: left;
+   font-size: 1.20rem;
+}
+
+.songs ul{
+   list-style-position: inside;
+   padding: 0;
+   margin: 2px 0 0;
+}
+
+.songs li{ line-height: 1.6; }
+.songs li.featured{ font-weight: 700; font-style: italic;}
+
+
+h2 {
+   font-size: larger;
+   text-align: left;
+}
+
+/*----footer css-----*/
+
+a.website-link {
+   font-size: 2em;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.website-link {
+   font-size: 2em;
+   font-family: 'Courier New', Courier, monospace;
+   color:aquamarine;
+}
+
+.website-link:hover {
+   color: aqua;
+   text-decoration: underline;
+}
+#footer-note {
+ text-align: center;
+      margin-top: 16px;
+   color: aliceblue;
+}
+
+#footer-note a{
+   color:darkseagreen;
+   text-decoration: none;
+}
+
+#footer-note a:hover {
+   color: #ffc0f9;
+   text-decoration: underline;
+}
+
+#contact {
+   color: plum;
+   padding-left: 22.5em;
+}
+
+/*------media----css---*/
+
+
+/*video----css*/
+
+.video-description {
+background-color: #5ba6a0;
+  border-left: 5px solid slategray;
+  padding: 20px;
+  margin-top: 20px;
+  font-family: 'Verdana', sans-serif;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  color: #333;
+}
+.video-description h3 {
+  margin-bottom: 10px;
+  color: #2c5c5c;
+}
+
+/*video border*/
+
+video {
+  border: 3px solid #176b57; /* (you can change the color) */
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+  margin: 10px;
+}
+
+/*video container css--*/
+
+/*keep pictures horizontal*/
+
+.video-container {
+  display: flex;
+  justify-content: space-between; /* (or) use space-around */
+  align-items: flex-start;
+  flex-wrap: wrap; /* wrapping on smaller screens */
+  gap: 10px;
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 1200px;
+}
+
+/*center videos*/
+
+.video-container {
+  margin: 5px auto;
+  text-align: center;
+}
+
+/*video border*/
+
+.video-container video {
+  width: 335px;
+  border: 3px solid #2d5959;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*body background color css*/
+body {
+  background-color: #2feae038;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  background-color: transparent;
+}
+
+.video-container {
+  background-color: transparent; 
+}
+
+
+/*--nav css--*/
+
+a {
+  color: inherit; 
+  text-decoration: none;
+}
+
+/* --- NAVIGATION BAR --- */
+nav {
+  background-color: #2d5959;
+  text-align: center;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  border-radius: 8px;
+}
+
+/* --- NAV UN/LIST --- */
+nav ul {
+  list-style-type: none;      /*removes the bullets!!!*/
+  margin: 0;
+  padding: 0;
+}
+
+/* --- NAV LIST ITEMS --- */
+nav li {
+  display: inline-block;       /*horizontal alignment*/
+  margin: 0 15px;
+}
+
+/* --- NAV LINKS --- */
+nav a {
+  color: #f6c;                 
+  font-weight: bold;
+  border: #8d9ff7cd;
+  border-style: ridge;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* --- HOVER EFFECT --- */
+nav a:hover {
+  color: #fff;
+  text-shadow: 0 0 8px #f6c;
+}
+
+
+/*---Merchandise CSS----*/
+
+/*shop/merchandise form css;*/
+
+form {
+  background-color: #f1f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  border-style: ridge;
+  border-color:  #f78dd4cd;
+  max-width: 350px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form input, form select, form textarea {
+  width: 95%;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 3px solid #f78dd4cd;
+}
+
+/*merchandise banner/placeholder css--*/
+.merch-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px; /* space between image and form */
+  padding: 30px;
+  background-color: hsl(180, 31%, 46%); 
+  border-radius: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap; /*for smaller screens */
+}
+
+.merch-image img {
+  max-width: 550px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(191, 5, 123, 0.9);
+}
+
+.merch-form form {
+  background-color: #2feae038; 
+    padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  min-width: 300px;
+  height: fit-content;
+}
+
+form div {
+margin-bottom: 10px;
+}
+
+label {
+ display: inline-block;
+}
+
+.concert-photo {
+  max-width: 98%;
+  margin: 10px auto;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(191, 5, 123, 0.9);
+border: 3px solid #f78dd4cd;
+display: block ;
+}
+
+
+/*--css for added pages (tour,newsletter,reviews)*/
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.tour-list li, .review {
+  background-color: cadetblue;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+
+/*--newsletter css for layout-*/
+
+/* container for horizontal layout */
+.newsletter-layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  margin: 50px auto;
+  padding: 20px;
+  flex-wrap: wrap; /* Stacks on mobile */
+}
+
+/* styling the images */
+.newsletter-layout img {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+
+/*image dimensions--*/
+.newsletter-layout img {
+  width: 285px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+/* ---newsletter box styling */
+.newsletter-box {
+  width: 400px;
+  padding: 25px;
+  background-color: cadetblue;
+  border: 2px solid #ff9fe6;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* --header inside the box */
+.newsletter-box h2 {
+  font-size: 24px;
+  color: #2a6663;
+  margin-bottom: 10px;
+}
+
+/*--subtext highlight box */
+.subtext {
+  background-color: #205552;
+  color: #a3f7ec;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* join in css */
+.joinin {
+  background-color: #205552;
+  color: #a3f7ec;
+  padding: 2px;
+  border-radius: 5px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/*----form fields */
+.newsletter-box input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ff9fe6;  
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(192, 18, 120, 0.735);
+}
+
+/*---button style-- */
+.newsletter-box button {
+  padding: 10px 20px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+/*----reviews photos
+
+
+/*keep pictures horizontal*/
+.photo-container {
+  display: flex;
+  justify-content: space-between; /* (or) use space-around */
+  align-items: flex-start;
+  flex-wrap: wrap; /* wrapping on smaller screens */
+  margin: 20px auto;
+  padding: 3px;
+  max-width: 1500px;
+}
+
+/*center photos*/
+.photo-container {
+  margin: 5px auto;
+  text-align: center;
+
+}
+
+/*image dimensions--*/
+.photo-container img {
+  width: 365px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(192, 18, 120, 0.735);
+    border: 2px solid #ff9fe6;
+}
+
+
+
+/*---tour css info*/
+
+
+
+.ticket-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  margin: 50px auto;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.ticket-container img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(192, 18, 120, 0.735);
+  border: 2px solid #ff9fe6;
+}
+
+.ticket-form {
+  width: 400px;
+  background-color: #f1f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  border-style: ridge;
+  border-color: #f78dd4cd;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.ticket-form input,
+.ticket-form select {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 2px solid #f78dd4cd;
+}
+
+/*--CSS/JS for form merch order summary*/
+
+#orderSummary {
+  font-size: 1.2em;
+  color: cadetblue;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.order-summary-box {
+  background-color: #fff0fb;
+  border: 2px ridge #f78dd4cd;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 1.1em;
+  color: #2a2a2a;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
