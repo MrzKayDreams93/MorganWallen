@@ -575,7 +575,7 @@ main {
 
 
 
-/*---fan poll button css---*/
+/*---fan poll button css (boolean)---*/
 button {
   background-color: #ff66b2;
   color: white;
