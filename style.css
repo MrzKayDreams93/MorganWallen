@@ -572,3 +572,24 @@ main {
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
+
+
+
+/*---fan poll button css---*/
+button {
+  background-color: #ff66b2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff85c1;
+  transform: scale(1.05);
+}

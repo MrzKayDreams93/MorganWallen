@@ -8,6 +8,30 @@ document.addEventListener("DOMContentLoaded", function () {
   const calculateBtn = document.getElementById("calculateBtn");
   const summary = document.getElementById("orderSummary");
 
+
+  
+  // === Fan Poll Boolean Example === //
+const pollButton = document.getElementById("fanPollBtn");
+
+if (pollButton) {
+  pollButton.addEventListener("click", function () {
+    let answer = prompt("Do you think Morgan deserves 5 stars? (yes or no)").toLowerCase();
+
+    // Use a boolean to decide the message
+    const lovesMorgan = answer === "yes";
+
+    if (lovesMorgan) {
+      alert("🎉 You're a true fan! Morgan says THANK YOU!");
+    } else {
+      alert("😅 What?! Try seeing him live — you’ll be converted!");
+    }
+  });
+}
+
+
+
+
+
   //  norefresh form--//
   form.addEventListener("submit", function (event) {
     event.preventDefault();
@@ -50,8 +74,6 @@ form.addEventListener("submit", function (event) {
   event.preventDefault();
   alert("✅ Order placed! We'll ship it as fast as Morgan can sing!");
 });
-
-
 
 
 
